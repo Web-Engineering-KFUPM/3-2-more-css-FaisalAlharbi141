@@ -5,8 +5,17 @@
 
 /* TODO 1:
   - Define CSS variables on :root for brand colors.
+  
   - Apply a global box-sizing reset using the universal selector (hint use * selector).
 */
+:root{
+  --brand: hsl(221, 75%, 37%);
+  --muted: #3e4146;
+  --bg: #f6f7fb;
+  --card: #ffffff; 
+}
+
+*{box-sizing: border-box;}
 
 /* TODO 2:
    -Give .site-header & .site-footer a subtle background using var(--card)
