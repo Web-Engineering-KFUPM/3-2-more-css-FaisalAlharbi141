@@ -98,6 +98,20 @@
    - For the .b2 class: apply a unique background or border style.
    - For the .b3 class: apply a unique background or border style.
 */
+.box{
+  width: 120px;
+  height: 80px;
+  padding: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b1{background-color:#93c5fd; background: #e0f2fe; }
+.b2{background-color:#174880; background: #4790c1; }
+.b3{background-color:#2e7cd5; background: #178cda; }
 
 /* TODO 7:
    - For the .toolbar class: make it a flex container, distribute items with space-between, 
