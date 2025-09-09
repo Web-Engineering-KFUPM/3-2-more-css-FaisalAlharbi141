@@ -22,7 +22,16 @@
    -Make the .tagline class a bit muted (use var(--muted))
    -Add a soft box-shadow to .card class
 */
+.site-header, .site-footer {
+  background: var(--card);
+  text-align: center;
+  padding: 1.25rem;
+}
 
+.tagline{
+  color: var(--muted);
+}
+.card{box-shadow: 0 6px 16px rgba(0,0,0,0.06);}
 /* TODO 3:
    - Set the color to the brand variable and make the text bold for the .color-demo .color-note class.
    - Set the color to var(--muted) and the font size to 0.95rem for the .color-demo .muted class.
