@@ -123,6 +123,37 @@
    - For the .product-grid .item class: center the content, set a minimum height, 
      and apply a soft background.
 */
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 0.5rem;
+  border: 1px dashed rgba(10, 221, 140, 0.1)
+}
+.btn{
+  padding: 0.5rem;
+  background: #eef2ff;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover{background: #e0e7ff;}
+.product-grid{
+  display: flex;
+  flex-wrap: wrap ;
+  gap: 1rem;
+  min-width: 140px;
+}
+.product-grid .item {
+  display: grid;
+  flex: 1px;
+  place-items: center;
+  min-height: 70px;
+  background: #f3f4f6;
+
+}
 
 /* TODO 8:
    - For the .static-box class: keep the default document flow but style it for visibility.
