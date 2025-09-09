@@ -81,7 +81,14 @@
    - For the .cta-link class: remove the underline, set the color to the brand variable, 
      and add a hover style (underline + darker color using rgb/hex/hsl).
 */
-
+.copy, .title{font-size: 1rem; font-weight: 600; text-transform: capitalize;}
+.copy, .intro{font-style: italic; line-height: 1rem;}
+.copy, .sample-text{font-family: serif fallback; font-size: 1.1em;}
+.cta-link{color: var(--brand); text-decoration: none;}
+.cta-link:hover{
+  text-decoration: underline;
+  color: hsl(221 83% 40%);
+}
 /* TODO 6:
    - For the .box class: set a fixed width (e.g., 120px) and height (e.g., 80px), 
      add padding and a visible border.
