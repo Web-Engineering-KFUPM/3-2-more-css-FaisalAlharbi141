@@ -59,6 +59,18 @@
    - For the .inline-label class: make it behave like an inline-block element with small padding and a border.
    - For the .inline-label.alt class: ensure it stays inline with others but use a different border style.
 */
+.inline-label{
+  display: inline-block;
+  padding: 10px;
+  border: 5px;
+}
+.inline-label.alt{
+  display: inline-block;
+  padding: 10px;
+  border: 5px;
+  margin-top: 5px;
+  border-style:groove;
+}
 
 /* TODO 5:
    - For the .copy .title class: choose a font-size (use rem), a font-weight between 600–700, 
