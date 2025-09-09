@@ -37,7 +37,24 @@
    - Set the color to var(--muted) and the font size to 0.95rem for the .color-demo .muted class.
    - Create a 100% width block with a minimum height of 80px, a background color of your choice, and an optional background gradient for the .bg-sample class.
 */
+.color-demo, .color-note{
+  font-weight: bold;
+  color: var(--muted);
+  
+}
+.color-demo, .muted{
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 
+.bg-sample{
+  width: 100%;
+  min-height: 80px;
+  background-color:beige;
+  background: linear-gradient(135deg, hsl(221 83% 96%), hsl(221 83% 92%));
+  display: grid;
+  place-items: center;
+}
 /* TODO 4:
    - For the .inline-label class: make it behave like an inline-block element with small padding and a border.
    - For the .inline-label.alt class: ensure it stays inline with others but use a different border style.
